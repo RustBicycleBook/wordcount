@@ -3,7 +3,7 @@ use std::fs::File;
 use std::io::BufReader;
 
 // libクレートに分離したものを使う
-use wordcount::count;
+use bicycle_book_wordcount::count;
 
 fn main() {
     // 1. コマンドラインで指定されたオプションを読み込む

@@ -1,6 +1,6 @@
 // アイテムのインポートも、もちろん必要
+use bicycle_book_wordcount::{count, CountOption};
 use std::io::Cursor;
-use wordcount::{count, CountOption};
 
 #[macro_use]
 mod utils;

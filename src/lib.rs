@@ -1,4 +1,4 @@
-//! `wordcount` はシンプルな文字、単語、行の出現頻度の計数機能を提供します。
+//! `bicycle_book_wordcount` はシンプルな文字、単語、行の出現頻度の計数機能を提供します。
 //! 詳しくは[`count`](fn.count.html)関数のドキュメントを見て下さい。
 #![warn(missing_docs)]
 
@@ -36,7 +36,7 @@ impl Default for CountOption {
 ///
 /// ```
 /// use std::io::Cursor;
-/// use wordcount::{count, CountOption};
+/// use bicycle_book_wordcount::{count, CountOption};
 ///
 /// let mut input = Cursor::new("aa bb cc bb");
 /// let freq = count(input, CountOption::Word);
