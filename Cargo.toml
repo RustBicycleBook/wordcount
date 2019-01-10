@@ -10,6 +10,7 @@ readme = "README.md"
 repository = "https://github.com/RustBicycleBook/wordcount"
 categories = ["command-line-utilities"]
 keywords = ["example", "frequency", "text"]
+exclude = ["text.txt", "tests/*"]
 
 [badges]
 appveyor = { repository = "RustBicycleBook/wordcount" }
