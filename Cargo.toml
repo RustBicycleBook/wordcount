@@ -1,0 +1,8 @@
+[package]
+name = "wordcount"
+version = "0.1.0"
+authors = ["RustBicycleBook <3han5chou7+bicyclebook@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+regex = "1.0"
